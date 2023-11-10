@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>MAXSIP FAQ</title>
+    <style>
+        /* Centering the accordion content */
+        #faq-list{max-width: 800px;
+            margin: 0 auto;}</style>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0 bg-body-secondary">
+    <div class="container faq-container my-5">
+        <!-- This button is completely optional. See <script> at bottom of page -->
+        <button id="toggleAccordion"
+                class="btn btn-primary mb-3">Expand All</button>
+
+        <div id="faq-list"
+             class="accordion">
+            <!-- Question 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q1-heading">
+
+                    <button class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q1-collapse"
+                            aria-expanded="true"
+                            aria-controls="q1-collapse">
+                        What is Maxsip Telecom?
+                    </button>
+                </h2>
+
+                <div id="q1-collapse"
+                     class="accordion-collapse collapse show"
+                     aria-labelledby="q1-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        “We are a service provider for the Federal Government’s Affordable Connectivity Program,
+                        provides all eligible individuals a Tablet with FREE monthly internet.”
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q2-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q2-collapse"
+                            aria-expanded="false"
+                            aria-controls="q2-collapse">
+                        What is ACP?
+                    </button>
+                </h2>
+
+                <div id="q2-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q2-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        ACP – stands for Affordable Connectivity Program that is part of a Federal Communications
+                        Commission
+                        benefit given by US Government that help and ensure families and households struggling to
+                        afford internet service.
+                        This new benefit will connect eligible families and households to jobs, school, critical
+                        healthcare services,
+                        virtual classrooms and so much more online. The Affordable Connectivity Program is limited
+                        to one device per tax household.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Question 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q3-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q3-collapse"
+                            aria-expanded="false"
+                            aria-controls="q3-collapse">
+                        How can I contact you?
+                    </button>
+                </h2>
+
+                <div id="q3-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q3-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>There are several ways to contact us. </p>
+                        <p> 1. Phone Number: +1-516-866-7300</p>
+                        <p>2. Website: https://maxsipconnects.com</p>
+                        <p>3. Mailing address: P.O Box 351, Valley Stream, NY</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q4-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q4-collapse"
+                            aria-expanded="false"
+                            aria-controls="q4-collapse">
+                        How do I qualify?
+                    </button>
+                </h2>
+
+                <div id="q4-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q4-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>1. SNAP – Supplemental Nutrition Assistance Program (Food Stamps)</p>
+                        <p>2. MEDICAID (May have different names in different states, eg., Medical (CA), Fidelis Cares,
+                            Health Plus NY)</p>
+                        <p>3. WIC – Nutrition Program for Woman, Infants and Children</p>
+                        <p>4. SSI – Supplemental Security Income</p>
+                        <p>5. Current Subscribers of LIFELINE</p>
+                        <p>6. Federal Public Housing Assistance</p>
+                        <p>7. Veterans Pension</p>
+                        <p>8. Free or Reduced School Lunch</p>
+                        <p>9. PELL Grant</p>
+                        <p>10. Income at or Below 200% of the Federal Poverty Guidelines</p>
+                        <p>11. Bureau of Indian Affair General Assistance</p>
+                        <p>12. Tribal TANF (Temporary Assistance for Needy Families)</p>
+                        <p>13. Food Distribution Program on Indian Reservations</p>
+                        <p>14. Tribal Head Start (Income Based)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q5-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q5-collapse"
+                            aria-expanded="false"
+                            aria-controls="q5-collapse">
+                        What are the Income requirements?
+                    </button>
+                </h2>
+
+                <div id="q5-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q5-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>Click the link below to see our Income Requirements.</p>
+                        <a href="https://b24-v35xqj.bitrix24.site/"
+                           class="button-link">Income Requirements</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q7-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q7-collapse"
+                            aria-expanded="false"
+                            aria-controls="q7-collapse">
+                        How do I Factory Reset my sky Device Tablet?
+                    </button>
+                </h2>
+
+                <div id="q7-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q7-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>Click the link below to see instructions for resetting your Sky tablet.</p>
+                        <a href="https://b24-6v7mkz.bitrix24.site/"
+                           class="button-link">Sky Factory Reset</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q8-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q8-collapse"
+                            aria-expanded="false"
+                            aria-controls="q8-collapse">
+                        How do I Factory Reset my Blu Device Tablet?
+                    </button>
+                </h2>
+
+                <div id="q8-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q8-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>Click the link below to see instructions for resetting your Blu tablet.</p>
+                        <a href="https://b24-kbbn0h.bitrix24.site/"
+                           class="button-link">BLU Factory Reset</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q9-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q9-collapse"
+                            aria-expanded="false"
+                            aria-controls="q9-collapse">
+                        How do I Factory Reset my FOXX Device Tablet?
+                    </button>
+                </h2>
+
+                <div id="q9-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q9-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>Click the link below to see instructions for resetting your FOXX tablet.</p>
+                        <a href="https://b24-0braa0.bitrix24.site/"
+                           class="button-link">FOXX Factory Reset</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q10-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q10-collapse"
+                            aria-expanded="false"
+                            aria-controls="q10-collapse">
+                        How do I Factory Reset my Vortex Device Tablet?
+                    </button>
+                </h2>
+
+                <div id="q10-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q10-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>Click the link below to see instructions for resetting your Vortex tablet.</p>
+                        <a href="https://b24-gzj62g.bitrix24.site/"
+                           class="button-link">Vortex Factory Reset</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 11 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q11-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q11-collapse"
+                            aria-expanded="false"
+                            aria-controls="q11-collapse">
+                        When will my data return?
+                    </button>
+                </h2>
+
+                <div id="q11-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q11-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>Your data resets usually 24 hours after your activation date or 24 hours after your
+                            reactivation
+                            date.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--
+              Question
+              12
+              -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q12-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q12-collapse"
+                            aria-expanded="false"
+                            aria-controls="q12-collapse">
+                        How long does the program last?
+                    </button>
+                </h2>
+
+                <div id="q12-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q12-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>The program will remain available until 2027.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 13 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q13-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q13-collapse"
+                            aria-expanded="false"
+                            aria-controls="q13-collapse">
+                        How much does the tablet cost?
+                    </button>
+                </h2>
+
+                <div id="q13-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q13-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>There is a one time $20 co-payment that is associated with the tablet.</p>
+                    </div>
+                </div>
+            </div>
+
+
+<!-- Question 14 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q14-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q14-collapse"
+                            aria-expanded="false"
+                            aria-controls="q14-collapse">
+                        Can I return my tablet and get a refund?
+                    </button>
+                </h2>
+
+                <div id="q14-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q14-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>“The money paid is a co-pay for the device itself. Once you receive the device, we cannot issue any refunds. If you chose to not continue our free internet service, we can discontinue but the device itself is yours to keep. Once a device has been handed to you the government has already issued their reimbursement on it and it can no longer be used by anyone else. co-pays from the government are nonrefundable.”-
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+<!-- Question 15 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q15-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q15-collapse"
+                            aria-expanded="false"
+                            aria-controls="q15-collapse">
+                        How many inches is the tablet?
+                    </button>
+                </h2>
+
+                <div id="q15-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q15-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>“All tablets have an 8-inch screen."</p>
+                    </div>
+                </div>
+            </div>
+
+
+<!-- Question 16 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header"
+                    id="q16-heading">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#q16-collapse"
+                            aria-expanded="false"
+                            aria-controls="q16-collapse">
+                        Why does it say free, but you charge a co-pay?
+                    </button>
+                </h2>
+
+                <div id="q16-collapse"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="q16-heading"
+                     data-bs-parent="#faq-list">
+                    <div class="accordion-body">
+                        <p>“The tablet itself costs $120 the ACP program covers $100 which leaves you with a $20 co-pay. The co-pay is for the device itself. The internet service is completely free. Every month you will receive 15gb of free internet data.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <script>
+        // This is totally optional, just showing you how to work with the accordion elements using jquery
+        document.addEventListener('DOMContentLoaded', function (){const accordionButton = document.getElementById('toggleAccordion');
+            const allAccordions = document.querySelectorAll('.collapse');
+            let allExpanded = false;
+
+            accordionButton.addEventListener('click', function (){allAccordions.forEach(accordion =>{if (allExpanded){new bootstrap.Collapse(accordion,{toggle: false}).hide();}else{new bootstrap.Collapse(accordion,{toggle: false}).show();}});
+
+                allExpanded = !allExpanded;
+                accordionButton.textContent = allExpanded ? 'Collapse All' : 'Expand All';});});
+    </script>
+
+</body>
+
+</html>
